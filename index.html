@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Tic Tac Toe</h1>
+    <table>
+        <tr>
+            <td class="td" onclick="turn1(this)" id="td1"></td>
+            <td class="td" onclick="turn2(this)" id="td2"></td>
+            <td class="td" onclick="turn3(this)" id="td3"></td>
+        </tr>
+        <tr>
+            <td class="td" onclick="turn4(this)" id="td4"></td>
+            <td class="td" onclick="turn5(this)" id="td5"></td>
+            <td class="td" onclick="turn6(this)" id="td6"></td>
+        </tr>
+        <tr>
+            <td class="td" onclick="turn7(this)" id="td7"></td>
+            <td class="td" onclick="turn8(this)" id="td8"></td>
+            <td class="td" onclick="turn9(this)" id="td9"></td>
+        </tr>
+    </table>
+    <div class="btn">
+        <button onclick="reset()">Reset</button>
+        <button onclick="result()">Result</button>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
